@@ -1,0 +1,187 @@
+{
+  "Quotes": [
+    {
+      "playQuotes": [
+        {
+          "name": "Joseph Chilton Pearce",
+          "said": "Play is the only way the highest intelligence of humankind can unfold"
+        },
+        {
+          "name": "Martin Buber",
+          "said": "Play is the exultation of the possible"
+        },
+        {
+          "name": "George Dorsey",
+          "said": "Play is the beginning of knowledge"
+        },
+        {
+          "name": "Diane Ackerman",
+          "said": "Play is our brain’s favorite way of learning"
+        },
+        {
+          "name": "G. K. Chesterton",
+          "said": "The true object of all human life is play"
+        },
+        {
+          "name": "Friedrich Nietzsche",
+          "said": "In every real man a child is hidden that wants to play"
+        },
+        {
+          "name": "Roger von Oech",
+          "said": "Necessity may be the mother of invention, but play is certainly the father"
+        }
+
+      ]
+    },
+    {
+      "mainQuotes": [
+        {
+          "badQuotes": [
+            {
+              "name": "Hitler",
+              "said": ["Strength lies not in defence but attack",
+                          "Success is the sole earthly judge of right and wrong",
+                          "He alone, who owns the youth, gains the future",
+                          "If you want to shine like sun first you have to burn like it.",
+                          "If you win, you need not have to explain...If you lose, you should not be there to explain!",
+                          "Words build bridges into unexplored regions",
+                          "To conquer a nation, first disarm its citizens",
+                          "If freedom is short of weapons, we must compensate with willpower"]
+            },
+            {
+              "name": "Stalin",
+              "said": ["I trust no one, not even myself",
+                          "Ideas are more powerful than guns. We would not let our enemies have guns why should we let them have ideas",
+                          "Those who vote decide nothing. Those who count the vote decide everything",
+                          "Everybody has a right to be stupid, but some people abuse the privilege",
+                          "The only way a kid is going to practise is if it's total fun for him.. and it was for me",
+                          "Die, but do not retreat",
+                          "A man's eyes should be torn out if he can only see the past",
+                          "I believe in one thing only, the power of human will."
+                        ]
+            },
+            {
+              "name": "The Joker",
+              "said": ["If you're good at something NEVER do it for free",
+                            "We stopped checking for monsters under our bed, when we realized they were inside us.",
+                            "I'm strong because i've been weak. I'm fearless because i've been afraid. I'm wise because i've been foolish",
+                            "The distance between insanity and genius is measured only by  success"]
+            },
+            {
+              "name": "Ted Bundy",
+              "said": ["I don't feel guilty for anything. I feel sorry for people who feel guilt.",
+                            "Try to touch the past. Try to deal with the past. It's not real. It's just a dream",
+                            "We all go a little mad sometimes",
+                            "Countless millions who have walked this earth before us have gone through this, so this is just an experience we all share."]
+            },
+            {
+              "name": "Jeffrey Dahmer",
+              "said": ["I’ve got to start eating at home more",
+                      "I made my fantasy life more powerful than my real one"]
+            },
+            {
+              "name": "O.J. Simpson",
+              "said": ["I could not tell you the date of my mother's death. I could not tell you the date of my dad's death. These are not dates that I find significant.",
+                      "I always put my fantasies in the realm of goals",
+                      "You've got to stand up. You can't let people run over you"]
+            },
+            {
+              "name": "Darth Vader",
+              "said": ["Be careful not to choke on your convictions",
+                      "He will join us or die",
+                      "All i am surrounded by  is fear, and dead men"]
+            }
+
+
+          ]
+        },
+        {
+          "regQuotes": [
+            {
+              "name": "Martin Shkreli",
+              "said": ["I bought the culture! It's mine!",
+                      "Keep my # off this shit",
+                      "I want to cure many deseases and save childrens lives",
+                      "Being a public figure is instantly grounds for prosecution",
+                      "Politics are well past logic. Its entertainment"]
+            },
+            {
+              "name": "Einstein",
+              "said": ["Imagination is more important than knowledge",
+                      "Few are those who see with their own eyes and feel with their own hearts.",
+                      "Great spirits have always encountered violent opposition from mediocre minds.",
+                      "Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid.",
+                      "In the middle of difficulty lies opportunity.",
+                      "Anger dwells only in the bosom of fools."]
+            },
+            {
+              "name": "Danny Devito",
+              "said": ["I'll tell you one thing, it's a cruel, cruel world",
+                      "Oh oops, I dropped my monster condom that i use for my.. magnum dong"]
+            },
+            {
+              "name": "Donald Trump",
+              "said": ["I need loyalty, I expect loyalty",
+                      "I have tremendous respect for women",
+                      "The beauty of me is that I’m very rich.",
+                      "I have never seen a thin person drinking Diet Coke."]
+            },
+            {
+              "name": "Bill gates",
+              "said": ["Don’t compare yourself with anyone in this world… if you do so, you are insulting yourself.",
+                      "If you are born poor it’s not your mistake, but if you die poor it’s your mistake.",
+                      "Success is a lousy teacher. It seduces smart people into thinking they can’t lose."]
+            },
+            {
+              "name": "Steve Jobs",
+              "said": ["Stay hungry, stay foolish",
+                      "Have the courage to follow your heart and intuition ",
+                      "Innovation distinguishes between a leader and a follower..",
+                      "Your time is limited, so don't waste it living someone else's life"]
+            },
+            {
+              "name": "Leonardo DiCaprio",
+              "said": ["My mother is a walking miracle",
+                      "I've been a pretty lucky man",
+                      "I think i will always feel like an outsider"]
+            },
+            {
+              "name": "Will Smith",
+              "said": ["I have a great time with my life, and I wanna share it.",
+                      "Throughout life people will make you mad, disrespect you and treat you bad. Let God deal with the things they do, because hate in your heart will consume you too."]
+            },
+            {
+              "name": "Jeff Bezos",
+              "said": ["It's not an experiment if you know it's going to work",
+                      "If you can't tolerate critics, don't do anything new or interesting"]
+            },
+            {
+              "name": "Barack Obama",
+              "said": ["These days, I look in the mirror and I have to admit, I'm not the strapping young Muslim socialist that I used to be",
+                      "If I had to name my greatest strength, I guess it would be my humility. Greatest weakness, it's possible that I'm a little too awesome."]
+            },
+            {
+              "name": "Elon Musk",
+              "said": ["When something is important enough, you do it even if the odds are not in your favor.",
+                      "No matter how hard you work, someone else is working harder",
+                      "The first step is to establish that something is possible; then probability will occur",
+                      "If you need inspiration, don’t do it.",
+                      "My family fears that the Russians will assassinate me."]
+            },
+            {
+              "name": "Bruce Lee",
+              "said": ["A wise man can learn more from a foolish question than a fool can learn from a wise answer",
+                      "If you love life, don't waste time, for time is what life is made up of.",
+                      "To hell with circumstances; I create opportunities",
+                      "Obey the principles without being bound by them",
+                      "The less effort, the faster and more powerful you will be"]
+            }
+          ]
+
+        }
+      ]
+    }
+
+  ]
+
+}

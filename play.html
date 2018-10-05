@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat|Montserrat:700,300|Roboto:100,300,400,500|Oswald" rel="stylesheet" type="text/css">
+    <title>Quote Game</title>
+  </head>
+  <body>
+    <div id="timer">30</div>
+    <div id="container">
+      <div id="quote-cont">
+        <p id="currentQuote"></p>
+      </div>
+      <br>
+      <div id="optionContainer">
+        <div class="box">
+          <p>Aristotle</p>
+        </div>
+        <div class="box">
+          <p>Descartes</p>
+        </div>
+        <div class="box">
+          <p>Ludwig</p>
+        </div>
+        <div class="box">
+          <p>Socrates</p>
+        </div>
+      </div>
+      <div id="container-block"></div>
+    </div>
+    <div id="score-counter">
+      <h3>Score: <span id="score">0</span></h3>
+    </div>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <h1>You scored:</h1>
+        <p id="theirScore"></p>
+        <div id="social-cont">
+          <a href="https://twitter.com/home?status=i%20suck" target="_blank"><button type="button" id="twitter"><i class="fab fa-twitter"></i> <span>Tweet</span></button></a>
+          <button type="button" id="facebook"><i class="fab fa-facebook"></i> <span>Share</span></button>
+        </div>
+        <p id="remarkScore">(You suck)</p>
+        <div id="modal-controls">
+          <div class="controllerCont" id="retry"><i class="fas fa-redo-alt"></i><span class="retry-text">Retry</span></div>
+          <a href="index.html"><div class="controllerCont"><i class="fas fa-home"></i><span class="home-text">Home</span></div></a>
+        </div>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
