@@ -191,15 +191,13 @@ xhttp.onreadystatechange = function() {
 
   function answerSubmit(e){
     changeColors();
-    if(e.path[0].innerHTML == "<p>" + correctOrigin + "</p>" || e.path[0].innerText == correctOrigin){
+    if(e.target.innerHTML == "<p>" + correctOrigin + "</p>" || e.target.innerHTML ==  correctOrigin){
       // Success
       correctAnswer();
     }else{
       // Failure
       timeoutModal();
     }
-
-
   }
 
   function changeColors(){
@@ -248,7 +246,6 @@ xhttp.onreadystatechange = function() {
     }
    setTimeout(function(){ modal.style.display = "block";}, 500);
   }
-  console.log(scopeAmount)
 
     // For longer messages
     if(currentQuote.innerHTML.length > 126){
