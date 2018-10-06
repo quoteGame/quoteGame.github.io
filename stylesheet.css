@@ -13,7 +13,7 @@ html, body{
 }
 #quote-cont{
   position: absolute;
-  top: -240px;
+  top: -200px;
   width: 100%;
   text-align: center;
   font-weight: 100;
@@ -236,8 +236,12 @@ a:visited{
 
 
 @media only screen and (max-height: 768px){
+  #quote-cont{
+    top: -100px;
+    font-size: 30px;
+  }
   #container{
-    top: 302px;
+    top: 252px;
   }
   #time-cont{
     top: 72px;
