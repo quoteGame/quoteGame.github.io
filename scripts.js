@@ -233,15 +233,15 @@ xhttp.onreadystatechange = function() {
     modalScore.innerHTML = score;
     if(score == totalScore){
       remarkScore.innerHTML = "(You literally got every one right, dude we've run out of quotes wtf)";
-    }else if(score >= (totalScore / 16)){
+    }else if(score >= (totalScore / 16) && score < (totalScore / 9)){
       remarkScore.innerHTML = "(Eh... alright i guess)";
-    }else if(score >= (totalScore / 9)){
+    }else if(score >= (totalScore / 9) && score < (totalScore / 7)){
       remarkScore.innerHTML = "(Not bad)";
-    }else if(score >= (totalScore / 7)){
+    }else if(score >= (totalScore / 7) && score < (totalScore / 5)){
       remarkScore.innerHTML = "(Thats pretty damn impressive)";
-    }else if(score >= (totalScore / 5)){
+    }else if(score >= (totalScore / 5) && score < (totalScore / 3)){
       remarkScore.innerHTML = "(THATS INSANE)";
-    }else if(score >= (totalScore / 3)){
+    }else if(score >= (totalScore / 3) && score < totalScore){
       remarkScore.innerHTML = "(okay you gotta be cheating)"
     }
    setTimeout(function(){ modal.style.display = "block";}, 500);
