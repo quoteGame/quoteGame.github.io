@@ -8,6 +8,7 @@ var remarkScore = document.getElementById("remarkScore");
 var containerBlock = document.getElementById("container-block");
 var timer = document.getElementById("timer");
 var retry = document.getElementById("retry");
+var tweetThis = document.getElementById("tweetThis");
 var correctOrigin;
 var score = 0;
 var nameOfRand = ""
@@ -233,16 +234,22 @@ xhttp.onreadystatechange = function() {
     modalScore.innerHTML = score;
     if(score == totalScore){
       remarkScore.innerHTML = "(You literally got every one right, dude we've run out of quotes wtf)";
+      tweetThis.href = "https://twitter.com/home?status=holy,%20i%20just%20did%20it%20i%20literally%20got%20every%20quote%20right%20bro%20what%20https%3A//quotegame.github.io"
     }else if(score >= (totalScore / 16) && score < (totalScore / 9)){
       remarkScore.innerHTML = "(Eh... alright i guess)";
+      tweetThis.href = "https://twitter.com/home?status=im%20pretty%20average%20at%20https%3A//quotegame.github.io"
     }else if(score >= (totalScore / 9) && score < (totalScore / 7)){
       remarkScore.innerHTML = "(Not bad)";
+      tweetThis.href = "https://twitter.com/home?status=okay...%20this%20is%20epic%20https%3A//quotegame.github.io"
     }else if(score >= (totalScore / 7) && score < (totalScore / 5)){
       remarkScore.innerHTML = "(Thats pretty damn impressive)";
+      tweetThis.href = "https://twitter.com/home?status=i%20surprisingly%20didnt%20do%20too%20bad%20on%20https%3A//quotegame.github.io"
     }else if(score >= (totalScore / 5) && score < (totalScore / 3)){
       remarkScore.innerHTML = "(THATS INSANE)";
+      tweetThis.href = "https://twitter.com/home?status=WHAT%20I%20JUST%20SET%20AN%20INSANE%20SCORE%20ON%20https%3A//quotegame.github.io"
     }else if(score >= (totalScore / 3) && score < totalScore){
       remarkScore.innerHTML = "(okay you gotta be cheating)"
+      tweetThis.href = "https://twitter.com/home?status=WHAT%20I%20JUST%20GOT%20LIKE%20BASICALLY%20ALL%20QUESTIONS%20RIGHT%20ON%20https%3A//quotegame.github.io"
     }
    setTimeout(function(){ modal.style.display = "block";}, 500);
   }
