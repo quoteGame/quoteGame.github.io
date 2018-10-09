@@ -294,3 +294,15 @@ a:visited{
 
   }
 }
+@media only screen and (max-width: 430px){
+  #container .box{
+    width: 300px;
+  }
+  #container{
+    left: 62.5%;
+  }
+  #quote-cont{
+    width: 70%;
+    margin-left: 54%;
+  }
+}
